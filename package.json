@@ -1,0 +1,17 @@
+{
+  "name": "03-bases-node",
+  "version": "1.0.0",
+  "description": "Para pruebas de entrada e linas de comando",
+  "main": "appIV.js",
+  "scripts": {
+    "test": "node appIV.js -base=1"
+  },
+  "author": "jess",
+  "license": "ISC",
+  "dependencies": {
+  "colors": "^1.4.0"
+  },
+  "devDependencies": {
+    "yargs": "11.0.0"
+  }
+}
