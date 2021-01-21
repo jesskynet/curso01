@@ -64,8 +64,8 @@ let crearSolamente = (base) => {
 let listar = (base,limite) => {
   return new Promise((resolve, reject) => {
     data = "";
-    console.log("         Base--->".grey, base + "--".warn);
-    console.log("         Limi--->".grey,limite +"--".warn);    
+    console.log(`         Base--->`.grey, base );
+    console.log(`         Limi--->`.grey,limite );    
     if (!Number(base)) {
       reject(` (${base}) No es un numero bro, no se genera nada`);
       return;
